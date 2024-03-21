@@ -1,13 +1,13 @@
 # solana cpi demo
 
-## module1
+## module
 
-simple module print msg.
+simple module print some msg , and zero what account it get at first account info.
 
-## module2
+## main
 
-from this module will call module1 by cpi.
+main module, this will call module1.
 
 ## client
 
-one client program call module2 and transfer module1 program address to module1.
+one client program call module main and transfer module1 program address to main.
